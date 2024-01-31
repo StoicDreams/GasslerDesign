@@ -58,12 +58,12 @@ In our free initial consultation, we will work with you to understand your goals
 At the end of your initial consultation, we will send you an estimate that details the expected work to be done and either hourly rates or total cost estimates, depending on the nature of the project. We will only begin work once you have approved an estimate.
 
 *We typically bill weekly for the hours put into a project, such as space planning or furniture selection, for our consulting services.*
-*We typically bill for 3D rendering projects once the work is completed, with full payment required before we release any final assets.*
+*We typically bill for 3D rendering projects 50% upfront and the remaining 50% once the work is completed, with full payment required before we release any final assets.*
 ````
 ````paper "flex-grow"
 ````
 ````paper "f5"
-Email for your initial Consultation
+[Email for your initial Consultation](mailto:karina@gassler.design?subject=Initial_Consultation&body=--Please_provid_details_of_what_you_are_wanting--)
 ````
 karina@gassler.design
 `````
