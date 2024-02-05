@@ -4,14 +4,14 @@
 ``````sidebyside "mt-a mb-a elevation-0"
 `````paper "d-flex flex-row"
 ````paper "ma-3 mt-1"
-![Living Room](https://cdn.gassler.design/img/gd/about_us_living_room.jpg)
+![Living Room](https://cdn.gassler.design/img/gd/about_us_living_room.avif)
 ```paper "d-flex hide-at-mobile" "height:150px"
 ```
 ````
 ````paper "ma-3"
 ```paper "d-flex hide-at-mobile" "height:150px"
 ```
-![Karina](https://cdn.gassler.design/img/gd/about_us_karina.jpg)
+![Karina](https://cdn.gassler.design/img/gd/about_us_karina.avif)
 ````
 `````
 `````paper "d-flex flex-column align-center gap-2 ma-10 pa-10 theme-tertiary"

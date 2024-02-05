@@ -1,6 +1,6 @@
 # Gassler Design
 
-[WebUI Version: 0.7.31](https://github.com/StoicDreams/RustWebUI)
+[WebUI Version: 0.7.32](https://github.com/StoicDreams/RustWebUI)
 
 Social marketing site for Karina's business.
 

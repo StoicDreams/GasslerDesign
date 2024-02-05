@@ -4,14 +4,14 @@
 ``````sidebyside "mt-a mb-a elevation-0"
 `````paper "d-flex flex-row"
 ````paper "ma-3 mt-1"
-![Living Room](/img/58.jpg)
+![Living Room](/img/58.avif)
 ```paper "d-flex hide-at-mobile" "height:150px"
 ```
 ````
 ````paper "ma-3"
 ```paper "d-flex hide-at-mobile" "height:150px"
 ```
-![Living Room](/img/13.jpg)
+![Living Room](/img/13.avif)
 ````
 `````
 `````paper "d-flex flex-column align-center justify-center gap-2 ma-10 pa-10 theme-tertiary"
@@ -39,14 +39,14 @@ Some of the services we offer:
 ``````sidebyside "mt-a mb-a elevation-0"
 `````paper "d-flex flex-row"
 ````paper "ma-3 mt-1"
-![Living Room](/img/bedroom.jpg)
+![Living Room](/img/bedroom.avif)
 ```paper "d-flex hide-at-mobile" "height:150px"
 ```
 ````
 ````paper "ma-3"
 ```paper "d-flex hide-at-mobile" "height:150px"
 ```
-![Living Room](/img/80.jpg)
+![Living Room](/img/80.avif)
 ````
 `````
 `````paper "d-flex flex-column align-center gap-2 ma-10 pa-10 theme-tertiary"
