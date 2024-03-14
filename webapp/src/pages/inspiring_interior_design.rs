@@ -1,6 +1,6 @@
 use crate::prelude::*;
 
-pub(crate) fn page_home(_contexts: Contexts) -> Html {
+pub(crate) fn page_home(_contexts: &Contexts) -> Html {
     set_title("Inspiring Interior Design Rendering");
     html! {
         <>

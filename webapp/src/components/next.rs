@@ -9,10 +9,10 @@ pub(crate) struct GDNextProps {
 #[function_component(GDNext)]
 pub(crate) fn gdnext(props: &GDNextProps) -> Html {
     let contexts = use_context::<Contexts>().expect("Contexts not found");
-    let app_config = contexts.config;
+    let app_config = contexts.config.clone();
     let display = match props.display.to_owned() {
         Some(display) => display,
-        None => match app_config.get_nav_from_path(&props.url) {
+        None => match app_config.get_nav_from_path(&props.url, &contexts) {
             Some(nav) => nav.name,
             None => "Not Found".to_string(),
         },
