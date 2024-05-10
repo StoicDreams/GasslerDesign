@@ -22,14 +22,14 @@ pub(crate) fn gdnext(props: &GDNextProps) -> Html {
         <>
             <Paper class="d-flex flex-column align-center justify-center mt-a">
                 <Link class="f5" href="https://www.instagram.com/gasslerdesign">
-                    <Avatar class="d-inline mr-3" icon="fa-brands fa-instagram" />
+                    <Avatar class="d-inline mr-3" icon={FaIcon::brands("instagram")} />
                     <span>{"Visit our Instagram"}</span>
                 </Link>
             </Paper>
             <Paper class="d-flex flex-column align-center justify-center mt-10">
                 <Link class="btn theme-info" {href}>
                     <span>{format!("Continue to {}", display)}</span>
-                    <Avatar class="d-inline ml-2" icon="fa-duotone fa-right" />
+                    {FaIcon::duotone("right").to_html()}
                 </Link>
             </Paper>
         </>
