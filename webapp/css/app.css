@@ -19,20 +19,23 @@
 	--color-warning-offset: var(--color-white);
 	--color-danger: rgb(183, 5, 5);
 	--color-danger-offset: var(--color-white);
-	--color-shade: rgba(125,125,125,0.2);
+	--color-shade: rgba(125, 125, 125, 0.2);
+	--color-shade-offset: inherit;
 	--color-active: var(--color-info);
 	--color-active-offset: var(--color-info-offset);
 	--color-button: var(--color-info);
 	--color-button-offset: var(--color-info-offset);
 }
+
 .clickable {
 	cursor: pointer;
 }
-main > * {
+
+main>* {
 	padding-bottom: calc(2 * var(--padding));
 }
 
-main > * :is(h1,h2,h3,h4,h5,h6) {
+main>* :is(h1, h2, h3, h4, h5, h6) {
 	box-shadow: none;
 	text-shadow: -2px 2px 4px black;
 }
@@ -47,6 +50,7 @@ header .btn {
 img {
 	border-radius: 5px;
 }
-p > .avatar {
+
+p>.avatar {
 	box-shadow: var(--elevation-10);
 }
