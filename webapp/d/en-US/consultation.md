@@ -1,21 +1,37 @@
-# Consultation Services for Interior Design & Interior Design Rendering
+<webui-data data-page-title="Consultation Services for Interior Design & Interior Design Rendering" data-page-subtitle=""></webui-data>
 
-```````paper "d-flex flex-column align-center justify-center" "height: auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));"
-``````sidebyside "mt-a mb-a elevation-0"
-`````paper "d-flex flex-row"
-````paper "ma-3 mt-1"
+<webui-flex column align="center" justify="center" style="height:auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));">
+
+<webui-side-by-side>
+
+<webui-flex>
+
+<webui-paper class="ma-3 mt-1">
+
 ![Living Room](/img/58.avif)
-```paper "d-flex hide-at-mobile" "height:150px"
-```
-````
-````paper "ma-3"
-```paper "d-flex hide-at-mobile" "height:150px"
-```
+
+<webui-flex style="height:150px">
+
+</webui-flex>
+
+</webui-paper>
+
+<webui-paper class="ma-3">
+
+<webui-flex class="hide-at-mobile" style="height:150px">
+
+</webui-flex>
+
 ![Living Room](/img/13.avif)
-````
-`````
-`````paper "d-flex flex-column align-center justify-center gap-2 ma-10 pa-10 theme-tertiary"
-````paper
+
+</webui-paper>
+
+</webui-flex>
+
+<webui-flex column align="center" justify="center" class="gap-2 ma-10 pa-10 theme-tertiary">
+
+<webui-paper>
+
 We offer consultation services as well as 3D rendering services to help you bring your vision to life for any interior design project.
 
 We have a range of interior design rendering services available to help visualize your ideas before they come to life in the real world. These renderings can be used as previews or presentations, enabling you to confirm that every detail is done right before moving forward with construction or renovation.
@@ -30,27 +46,47 @@ Some of the services we offer:
 - Lighting and fixture planning
 - Space planning & optimization
 - Accessorizing for style and impact
-````
-`````
-``````
-```````
 
-```````paper "d-flex flex-column align-center justify-center" "height: auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));"
-``````sidebyside "mt-a mb-a elevation-0"
-`````paper "d-flex flex-row"
-````paper "ma-3 mt-1"
+</webui-paper>
+
+</webui-flex>
+
+</webui-side-by-side>
+
+</webui-flex>
+
+<webui-flex column align="center" justify="center" style="height: auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));">
+
+<webui-side-by-side>
+
+<webui-flex>
+
+<webui-paper class="ma-3 mt-1">
+
 ![Living Room](/img/bedroom.avif)
-```paper "d-flex hide-at-mobile" "height:150px"
-```
-````
-````paper "ma-3"
-```paper "d-flex hide-at-mobile" "height:150px"
-```
+
+<webui-flex class="hide-at-mobile" style="height:150px">
+
+</webui-flex>
+
+</webui-paper>
+
+<webui-paper class="ma-3">
+
+<webui-flex class="hide-at-mobile" style="height:150px">
+
+</webui-flex>
+
 ![Living Room](/img/80.avif)
-````
-`````
-`````paper "d-flex flex-column align-center gap-2 ma-10 pa-10 theme-tertiary"
-````paper
+
+</webui-paper>
+
+</webui-flex>
+
+<webui-flex column align="center" class="gap-2 ma-10 pa-10 theme-tertiary">
+
+<webui-paper>
+
 Contact us today for a free and no-obligation initial consultation!
 
 In our free initial consultation, we will work with you to understand your goals and figure out which of our services can best help you achieve them.
@@ -59,13 +95,25 @@ At the end of your initial consultation, we will send you an estimate that detai
 
 *We typically bill weekly for the hours put into a project, such as space planning or furniture selection, for our consulting services.*
 *We typically bill for 3D rendering projects 50% upfront and the remaining 50% once the work is completed, with full payment required before we release any final assets.*
-````
-````paper "flex-grow"
-````
-````paper "f5"
+
+</webui-paper>
+
+<webui-flex grow>
+
+</webui-flex>
+
+<webui-paper class="f5">
+
 [Email for your initial Consultation](mailto:karina@gassler.design?subject=Initial_Consultation&body=--Please_provid_details_of_what_you_are_wanting--)
-````
-karina@gassler.design
-`````
-``````
-```````
+
+</webui-paper>
+
+[karina@gassler.design](mailto:karina@gassler.design?subject=Initial_Consultation&body=--Please_provid_details_of_what_you_are_wanting--)
+
+</webui-flex>
+
+</webui-side-by-side>
+
+</webui-flex>
+
+<app-next name="Inspiring Interior Design" href="/"></app-next>

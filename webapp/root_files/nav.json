@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Home",
+        "icon": "house",
+        "iconFamily": "duotone",
+        "url": "/"
+    },
+    {
+        "name": "Gallery",
+        "icon": "gallery-thumbnails",
+        "iconFamily": "duotone",
+        "url": "/gallery"
+    },
+    {
+        "name": "About",
+        "icon": "circle-exclamation",
+        "iconFamily": "duotone",
+        "url": "/about"
+    },
+    {
+        "name": "Consultation",
+        "icon": "messages-question",
+        "iconFamily": "duotone",
+        "url": "/consultation"
+    },
+    {
+        "name": "Privacy",
+        "icon": "shield-exclamation",
+        "iconFamily": "duotone",
+        "url": "/privacy"
+    },
+    {
+        "name": "Terms",
+        "icon": "handshake",
+        "iconFamily": "duotone",
+        "url": "/terms"
+    }
+]

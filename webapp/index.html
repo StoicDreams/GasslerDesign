@@ -16,36 +16,77 @@
 
 	<link href="https://cdn.myfi.ws/fa/css/svg-with-js.min.css" rel="stylesheet" />
 	<link href="https://cdn.myfi.ws/css/webui.min.css" rel="stylesheet" />
+	<link data-trunk href="css/app.min.css" rel="css" />
 
 	<link data-trunk href="d" rel="copy-dir" data-target-path="d" />
+	<link data-trunk href="wc" rel="copy-dir" data-target-path="wc" />
 	<link data-trunk href="img" rel="copy-dir" data-target-path="img" />
 	<link data-trunk href="root_files" rel="copy-dir" />
 
 	<meta name="theme-color" content="#FF2E46" />
 
 	<meta name="author" content="Erik Gassler">
-	<meta name="description"
-		content="Interior design specialists with a focus on providing inspiring visualizations through 3d renderings.">
+	<meta name="description" content="Interior design specialists with a focus on providing inspiring visualizations through 3d renderings.">
 
 	<meta property="og:image" content="https://www.gassler.design/Logo.svg">
 	<meta property="og:title" content="Interior design 3d rendering">
 	<meta property="og:url" content="https://www.gassler.design/">
-	<meta property="og:description"
-		content="Interior design specialists with a focus on providing inspiring visualizations through 3d renderings.">
+	<meta property="og:description" content="Interior design specialists with a focus on providing inspiring visualizations through 3d renderings.">
 
 	<meta name="twitter:title" content="Interior design 3d rendering">
 	<meta name="twitter:url" content="https://www.gassler.design/">
 	<meta name="twitter:site" content="@stoicdreamsllc">
-	<meta name="twitter:description"
-		content="Interior design specialists with a focus on providing inspiring visualizations through 3d renderings.">
+	<meta name="twitter:description" content="Interior design specialists with a focus on providing inspiring visualizations through 3d renderings.">
 	<meta name="twitter:image" content="https://www.gassler.design/Logo.svg">
-
-	<script src="https://cdn.myfi.ws/webui/loader.min.js" async></script>
-	<script src="https://cdn.myfi.ws/highlight/highlight.min.js" async></script>
-	<script src="https://cdn.myfi.ws/i/tooltips.min.js" async></script>
-	<link data-trunk href="css/app.min.css" rel="css" />
 </head>
 
-<body></body>
+<body>
+	<webui-app data-removeclass=".nav|open;.shared|open">
+		<webui-drawer slot="left" class="nav elevation-20" data-state="slot|docked" data-moveable data-dockable>
+			<webui-flex justify="center" slot="header">
+				<image src="Logo.svg" title="Gassler Design Logo" />
+			</webui-flex>
+			<webui-nav routes="/nav.json" data-subscribe="nav-routes"></webui-nav>
+		</webui-drawer>
+		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
+		</webui-drawer>
+		<header slot="header">
+			<button data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+				<webui-fa icon="bars"></webui-fa>
+			</button>
+			<h1 data-subscribe="page-title" data-set="innerHTML">Gassler Design</h1>
+			<h2 data-subscribe="page-subtitle" data-set="innerHTML"></h2>
+			<webui-flex grow></webui-flex>
+			<a class="pa-1" title="Link to Gassler Design on Instagram" href="https://www.instagram.com/gasslerdesign">
+				<webui-fa icon="instagram" family="brands"></webui-fa>
+			</a>
+			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message"></webui-feedback>
+			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
+			<webui-myfi-info></webui-myfi-info>
+		</header>
+		<noscript>Javascript is required to view this site</noscript>
+		<webui-data data-app-name="Gassler Design"></webui-data>
+		<webui-data data-company-possessive="Gassler Design's"></webui-data>
+		<webui-data data-company-singular="Gassler Design"></webui-data>
+		<webui-page-footer copyright="2021" company="Gassler Design"></webui-page-footer>
+	</webui-app>
+
+	<script src="https://cdn.myfi.ws/webui/loader.min.js" async></script>
+	<script src="https://cdn.myfi.ws/app-loader.min.js" async></script>
+	<script src="https://cdn.myfi.ws/js/marked.min.js" async></script>
+	<script src="https://cdn.myfi.ws/highlight/highlight.min.js" async></script>
+	<script src="https://cdn.myfi.ws/i/tooltips.min.js" async></script>
+	<script type="text/javascript">
+		(function checkHighlighting() {
+			if (window.hljs) {
+				document.querySelectorAll('pre code:not([data-hl])').forEach((el) => {
+					el.setAttribute('data-hl', true);
+					window.hljs.highlightElement(el);
+				});
+			}
+			setTimeout(checkHighlighting, 100);
+		})();
+	</script>
+</body>
 
 </html>
