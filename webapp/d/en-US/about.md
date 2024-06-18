@@ -62,4 +62,4 @@ If you are interested in learning more about our interior design services or if 
 
 </webui-flex>
 
-<app-next name="Consultation Services" href="/consultation"></app-next>
+<webui-next-page name="Consultation Services" href="/consultation"></webui-next-page>

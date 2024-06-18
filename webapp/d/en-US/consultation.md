@@ -116,4 +116,4 @@ At the end of your initial consultation, we will send you an estimate that detai
 
 </webui-flex>
 
-<app-next name="Inspiring Interior Design" href="/"></app-next>
+<webui-next-page name="Inspiring Interior Design" href="/"></webui-next-page>

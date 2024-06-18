@@ -14,4 +14,4 @@
 
 </webui-flex>
 
-<app-next name="Gassler Design Gallery" href="/gallery"></app-next>
+<webui-next-page name="Gassler Design Gallery" href="/gallery"></webui-next-page>
