@@ -6,7 +6,7 @@
 
 <webui-flex justify="center" align="end" style="width:100%;height:100%;">
 
-<h2 style="margin-left: calc(var(--main-width) * -0.05); color:white; font-size: 4em;position:sticky;left:0;text-shadow:-2px 2px 4px black;background-color:none;">Inspired Design!</h2>
+<h2 style="margin-left: calc(var(--main-width) * -0.05); color:white; font-size: 4em;position:sticky;left:0;text-shadow:-2px 2px 4px black;background-color:transparent;">Inspired Design!</h2>
 
 </webui-flex>
 
