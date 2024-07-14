@@ -1,4 +1,5 @@
 <webui-data data-page-title="About {APP_NAME}" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Consultation Services","href":"/consultation"}'></webui-data>
 
 <webui-flex column justify="center">
     <webui-side-by-side class="my-a">
@@ -33,5 +34,3 @@
         </webui-flex>
     </webui-side-by-side>
 </webui-flex>
-
-<webui-next-page name="Consultation Services" href="/consultation"></webui-next-page>

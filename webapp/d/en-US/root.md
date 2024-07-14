@@ -1,4 +1,5 @@
 <webui-data data-page-title="Inspiring Interior Design Rendering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Gassler Design Gallery","href":"/gallery"}'></webui-data>
 
 <webui-flex justify="center" align="center" style="min-height:calc(var(--main-height) * 0.8);padding:calc(var(--main-width) * 0.03);">
 
@@ -13,5 +14,3 @@
 </webui-paper>
 
 </webui-flex>
-
-<webui-next-page name="Gassler Design Gallery" href="/gallery"></webui-next-page>

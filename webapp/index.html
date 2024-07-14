@@ -58,9 +58,6 @@
 			<h1 data-subscribe="page-title" data-set="innerHTML">Gassler Design</h1>
 			<h2 data-subscribe="page-subtitle" data-set="innerHTML"></h2>
 			<webui-flex grow></webui-flex>
-			<a class="pa-1" title="Link to Gassler Design on Instagram" href="https://www.instagram.com/gasslerdesign">
-				<webui-fa icon="instagram" family="brands"></webui-fa>
-			</a>
 			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message"></webui-feedback>
 			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
 			<webui-myfi-info></webui-myfi-info>
@@ -69,12 +66,21 @@
 		<webui-data data-app-name="Gassler Design"></webui-data>
 		<webui-data data-company-possessive="Gassler Design's"></webui-data>
 		<webui-data data-company-singular="Gassler Design"></webui-data>
-		<webui-data data-next-page-pre="innerHTML">
-			<webui-link href="https://www.instagram.com/gasslerdesign" start-icon-family="brands" start-icon="instagram" class="f5">
-				Visit our Instagram
-			</webui-link>
-		</webui-data>
-		<webui-page-footer copyright="2021" company="Gassler Design"></webui-page-footer>
+		<webui-page-footer copyright="2021" company="Gassler Design">
+			<webui-next-page theme="success" family="duotone" data-subscribe="page-next-page"></webui-next-page>
+			<webui-flex class="my-5" justify="center">
+				<webui-link href="/about" icon="circle-exclamation" family="duotone">About {APP_NAME}</webui-link>
+				<webui-link href="/contact" icon="messages" family="duotone">Contact {APP_NAME}</webui-link>
+				<webui-link href="/privacy" icon="shield-exclamation" family="duotone">Privacy</webui-link>
+				<webui-link href="/terms" icon="handshake" family="duotone">Terms & Conditions</webui-link>
+			</webui-flex>
+			<webui-flex class="my-5" justify="center">
+				<a class="pa-1" title="Link to Gassler Design on Instagram" href="https://www.instagram.com/gasslerdesign">
+					</webui-segment>
+					<webui-fa icon="instagram" family="brands"></webui-fa>
+				</a>
+			</webui-flex>
+		</webui-page-footer>
 	</webui-app>
 
 	<script src="https://cdn.myfi.ws/highlight/highlight.min.js" async></script>

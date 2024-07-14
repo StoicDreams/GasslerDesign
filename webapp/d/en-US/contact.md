@@ -1,6 +1,7 @@
 <webui-data data-page-title="Contact Gassler Design" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Inspiring Interior Design","href":"/"}'></webui-data>
 
-<webui-flex column align="center" justify="center" style="height:auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));">
+<webui-flex column justify="center" style="height:auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));">
     <webui-side-by-side>
         <webui-flex>
             <webui-paper class="ma-3 mt-1">
@@ -23,7 +24,5 @@
     </webui-side-by-side>
 </webui-flex>
 
-<webui-flex column align="center" justify="center" style="height: auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));">
+<webui-flex column justify="center" style="height: auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));">
 </webui-flex>
-
-<webui-next-page name="Inspiring Interior Design" href="/"></webui-next-page>
