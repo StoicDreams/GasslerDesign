@@ -24,7 +24,6 @@
                 Our experts are passionate about creating beautiful, functional spaces that exceed your expectations. We use the latest technologies and techniques to ensure top-notch results for every project.
 
                 Some of the services we offer:
-
                 - Furniture selection, layout, & design
                 - 3D interior rendering
                 - Color and material selection
