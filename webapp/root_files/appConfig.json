@@ -1,6 +1,6 @@
 {
     "appName": "Gassler Design",
-    "companyPossessive": "Gassler Design's",
-    "companySingular": "Gassler Design",
-    "api": "https://api.myfi.ws"
+    "appCompanyPossessive": "Gassler Design's",
+    "appCompanySingular": "Gassler Design",
+    "appApi": "https://api.myfi.ws"
 }
