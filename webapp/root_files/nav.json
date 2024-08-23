@@ -11,7 +11,7 @@
     },
     {
         "name": "Consultation",
-        "icon": "messages-question",
+        "icon": "messages-question|fill",
         "url": "/consultation"
     }
 ]
