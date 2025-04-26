@@ -5,12 +5,12 @@
     <webui-side-by-side class="my-a">
         <webui-flex>
             <webui-paper class="ma-3 mt-1">
-                ![Living Room](https://cdn.gassler.design/img/gd/about_us_living_room.avif)
+                ![Living Room](https://cdn.myfi.ws/img/gd/about_us_living_room.avif)
                 <webui-flex class="hide-at-mobile" style="height:150px"></webui-flex>
             </webui-paper>
             <webui-paper>
                 <webui-flex class="hide-at-mobile" style="height:150px"></webui-flex>
-                ![Karina](https://cdn.gassler.design/img/gd/about_us_karina.avif)
+                ![Karina](https://cdn.myfi.ws/img/gd/about_us_karina.avif)
             </webui-paper>
         </webui-flex>
         <webui-flex column align="center" gap="2" class="ma-10 pa-10 theme-tertiary">
