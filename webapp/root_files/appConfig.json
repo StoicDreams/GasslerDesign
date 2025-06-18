@@ -2,5 +2,6 @@
     "appName": "Gassler Design",
     "appCompanyPossessive": "Gassler Design's",
     "appCompanySingular": "Gassler Design",
-    "appApi": "https://api.myfi.ws"
+    "appApi": "https://api.myfi.ws",
+    "rolesApi": "user/roles"
 }
