@@ -12,17 +12,33 @@ Social marketing site for Karina's business.
 
 ### Pages
 
-- Home
-- About
-- Blog
-- E-Design Service
-- Recommendations
-- Privacy
-- Contact
+|Page|Description|
+|---|---|
+|Home|Main landing page with an introduction to the business and services offered.|
+|About|Information about Karina and her design philosophy.|
+|Blog|Articles and updates related to design and the business.|
+|E-Design Service|Details about the e-design service offered, including how it works and what clients can expect.|
+|Recommendations|A section for client testimonials and recommendations.|
+|Privacy|Information about privacy policies and data handling.|
+|Contact|A contact form for inquiries and bookings.|
 
 ## Ideas
 
 - Need to display galleries of previous work.
+
+## Development
+
+### Setup
+
+Before running this project, follow the [Web CLI Setup](https://webui.stoicdeams.com/tools/cli) guide and the [Web UI Rust Tools Setup](https://webui.stoicdreams.com/tools/rust) guide to install the necessary tools and dependencies.
+
+### Running the Project
+
+To run the project locally, you can use the following command:
+
+```terminal:Run the project from the root directory
+../PowerShell/RunLocal.ps1 -port 3210
+```
 
 ## Author
 
