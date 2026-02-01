@@ -1,17 +1,17 @@
 [
     {
         "name": "Home",
-        "icon": "home",
+        "icon": "emoji-house|theme:title|shape:circle|backing",
         "url": "/"
     },
     {
         "name": "Gallery",
-        "icon": "gallery-thumbs",
+        "icon": "emoji-art",
         "url": "/gallery"
     },
     {
         "name": "Consultation",
-        "icon": "messages-question|fill",
+        "icon": "emoji-thought_balloon",
         "url": "/consultation"
     }
 ]
