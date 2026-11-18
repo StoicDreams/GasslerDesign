@@ -1,4 +1,4 @@
-<webui-data data-page-title="Consultation Services for Interior Design & Interior Design Rendering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Consultation Services for Interior Design & Interior Design Rendering" data-page-subtitle="" data-page-description="Interior design consultations and 3D renderings: furniture and layout, color and materials, lighting, space planning, and accessories before you build."></webui-data>
 <webui-data data-page-next-page='{"name":"Inspiring Interior Design","href":"/"}'></webui-data>
 
 <webui-flex column justify="center" style="height:auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));">

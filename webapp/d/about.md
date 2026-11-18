@@ -1,4 +1,4 @@
-<webui-data data-page-title="About {APP_NAME}" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="About {APP_NAME}" data-page-subtitle="" data-page-description="Meet Gassler Design and designer Karina: a Seattle-area studio that works with clients worldwide to turn their vision into a functional, stylish space."></webui-data>
 <webui-data data-page-next-page='{"name":"Consultation Services","href":"/consultation"}'></webui-data>
 
 <webui-flex column justify="center">

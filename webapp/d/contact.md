@@ -1,4 +1,4 @@
-<webui-data data-page-title="Contact Gassler Design" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Contact Gassler Design" data-page-subtitle="" data-page-description="Email Karina at Gassler Design or use the feedback form with questions, comments, or ideas for your interior design project."></webui-data>
 <webui-data data-page-next-page='{"name":"Inspiring Interior Design","href":"/"}'></webui-data>
 
 <webui-flex column justify="center" style="height:auto;min-height:calc(var(--main-height)-var(--header-height)-var(--footer-height));">

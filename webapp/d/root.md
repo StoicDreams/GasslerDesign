@@ -1,4 +1,4 @@
-<webui-data data-page-title="Inspiring Interior Design Rendering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Inspiring Interior Design Rendering" data-page-subtitle="" data-page-description="Gassler Design is a Seattle-area interior design studio offering personal, one-of-a-kind designs and 3D renderings so you can see a room before it is built."></webui-data>
 <webui-data data-page-next-page='{"name":"Gassler Design Gallery","href":"/gallery"}'></webui-data>
 
 <webui-flex justify="center" align="center" style="min-height:calc(var(--main-height) * 0.8);padding:calc(var(--main-width) * 0.03);">
