@@ -1,6 +1,6 @@
 # Gassler Design
 
-[Version: 0.1.23](https://github.com/StoicDreams/GasslerDesign)
+[Version: 0.1.24](https://github.com/StoicDreams/GasslerDesign)
 
 [WebUI](https://github.com/StoicDreams/WebUI)
 
